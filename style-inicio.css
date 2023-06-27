@@ -7,11 +7,11 @@ body {
 
   .sidebar {
     width: 100%;
-    max-width: 400px;
+    max-width: 100px;
     min-width: 250px;
     height: 100vh;
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     top: 0;
     left: 0;

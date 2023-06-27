@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-06-2023 a las 05:29:44
+-- Tiempo de generación: 27-06-2023 a las 22:17:55
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -33,15 +33,15 @@ CREATE TABLE `mae_plancuentas` (
   `Cuenta` int(10) NOT NULL,
   `Cuenta_Padre` int(2) NOT NULL,
   `Nombre` varchar(50) NOT NULL,
-  `1_Digito` int(1) NOT NULL,
-  `2_Digitos` int(2) NOT NULL
+  `Digito1` int(1) NOT NULL,
+  `Digito2` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `mae_plancuentas`
 --
 
-INSERT INTO `mae_plancuentas` (`idPlanCuentas`, `idTipo`, `Cuenta`, `Cuenta_Padre`, `Nombre`, `1_Digito`, `2_Digitos`) VALUES
+INSERT INTO `mae_plancuentas` (`idPlanCuentas`, `idTipo`, `Cuenta`, `Cuenta_Padre`, `Nombre`, `Digito1`, `Digito2`) VALUES
 (1, 1, 1001, 0, 'Activo', 1, 10),
 (2, 2, 2001, 0, 'Pasivo', 2, 20),
 (3, 3, 3001, 0, 'Patrimonio', 3, 30),
