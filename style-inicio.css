@@ -1,0 +1,62 @@
+body {
+    background-image: url('fondo-login.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 400px;
+    min-width: 250px;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2); /* Agregamos el sombreado en la arista derecha */
+  }
+
+  .sidebar ul {
+    padding-left: 0;
+  }
+
+  .sidebar li {
+    list-style: none;
+  }
+
+  .sidebar .nav-link {
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .sidebar .nav-link:hover,
+  .sidebar .nav-link:focus {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+
+  header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .table-container {
+    margin-top: 40px;
+  }

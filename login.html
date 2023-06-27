@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Inicio de Sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body class="fondo-login">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <h1 class="text-center">Bienvenido</h1>
+                        <h5 class="text-center">Sistema de Plan Contable</h5>
+                        <form action="validate.php" method="POST" class="mt-5">
+                            <div class="form-group">
+                                <input type="text" class="form-control rounded-pill" placeholder="Ingresar Usuario" id="usuario_txt" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control rounded-pill" placeholder="Ingresar Contraseña" id="contrasenia_txt" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block rounded-pill">Iniciar Sesión</button>
+                        </form>
+                        <p class="text-center mt-3">
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
